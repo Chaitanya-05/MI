@@ -1,0 +1,105 @@
+body{
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+main{
+    background-color: #f7f7f7;
+    height: 90vh;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+.head{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.head-elem{
+    font-size: 10px;
+}
+#logo{
+    width: 20px;
+    height: 20px;
+    border-radius: 30%;
+}
+
+/*-----------------------  */
+.item-container{
+    margin: auto;
+    width: 66%;
+    height: 30vh;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.item{
+    height: 100%;
+    width: 24%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+#price-container{
+display: flex;
+justify-content: space-between;
+
+
+}
+img{
+    height: 90px;
+    width: 90px;
+}
+#discount{
+    width: 35%;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 5px;
+    background-color: hsla(26, 100%, 93%, 0.623);
+   margin-top: 5px;
+    font-size: 10px;
+    color: #ff822a;
+    border: 1px solid #ff822a;
+    
+}
+h4{
+    margin-bottom: 0;
+}
+#price{
+    margin-top: 20%;
+}
+#price-dic{
+    font-size: small;
+    font-weight: 600;
+}
+#price-main{
+    font-size: 10px;
+    color: grey;
+}
+
+#name{
+    margin-top: 5%;
+    font-size: 12px;
+}
+.display{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0%;
+    width: 66%;
+}
+#display-image{
+    width: 100%;
+}
