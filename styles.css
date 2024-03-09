@@ -22,11 +22,11 @@ header{
     align-items: center;
 }
 .head-elem{
-    font-size: 10px;
+    font-size: 15px;
 }
 #logo{
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     border-radius: 30%;
 }
 
@@ -35,7 +35,7 @@ header{
     margin: auto;
     width: 66%;
     height: 30vh;
-    margin-top: 20px;
+    margin-top: 14px;
     display: flex;
     justify-content: space-between;
     padding: 10px;
@@ -46,7 +46,7 @@ header{
     background-color: white;
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 20px;
     box-sizing: border-box;
     justify-content: space-between;
 }
@@ -58,8 +58,8 @@ justify-content: space-between;
 
 }
 img{
-    height: 90px;
-    width: 90px;
+    height: 150px;
+    width: 150px;
 }
 #discount{
     width: 35%;
@@ -78,20 +78,20 @@ h4{
     margin-bottom: 0;
 }
 #price{
-    margin-top: 20%;
+    margin-top: 30%;
 }
 #price-dic{
-    font-size: small;
+    font-size: 20px;
     font-weight: 600;
 }
 #price-main{
-    font-size: 10px;
+    font-size: 15px;
     color: grey;
 }
 
 #name{
     margin-top: 5%;
-    font-size: 12px;
+    font-size: 20px;
 }
 .display{
     margin-top: 10px;
@@ -101,5 +101,6 @@ h4{
     width: 66%;
 }
 #display-image{
+    height: 20vh;
     width: 100%;
 }
